@@ -31,21 +31,21 @@ So, let’s Dive into the Details…!!
 
 ## Configuring Git for the first time :-
 
-$${\color{green}git config -global user.name “[name]”}$$
+## $\textcolor{Blue}{\ git\ config\ -global\ user.name\ “[name]"}$
 
-$${\color{green}git config -global user.email “[email address]"}$$
+## $\textcolor{Blue}{git\ config\ -global\ user.email\ “[email address]"}$
 
 This command sets the author name and email address respectively to be used with your commits.
 
 ## Git clone from GitHub :-
 
-$${\color{green}git clone [url]}$$
+## $\textcolor{Blue}{git\ clone\ [url]}$
 
 Used to create an instance of the remote repository into your local repo.
 
 ## Initializing a :-
 
-$${\color{green}git init}$$
+## $\textcolor{Blue}{git\ init}$
 
 This command is used to initialise a new repository.
 
@@ -57,13 +57,13 @@ Staged files are files that are ready to be committed to the repository you are 
 
 When you first add files to an empty repository, they are all untracked. To track them, you need to stage them, or add them to the staging environment
 
-$${\color{green}git add [filename]}$$
+## $\textcolor{Blue}{git\ add\ [filename]}$
 
 This command adds specified files to the staging area (enviroment)
 
 This command doesn't add `.gitignore` file by default
 
-$${\color{green}git add .</span>}$$
+## $\textcolor{Blue}{git\ add\ .}$
 
 This command adds all files to the staging area.
 
@@ -71,13 +71,13 @@ This command adds all files to the staging area.
 
 Commit all the changes with a commit message using the command
 
-$${\color{green}git commit -m “[ Type in the commit message]” }$$
+## $\textcolor{Blue}{git\ commit\ -m\ “[ Type in the commit message]” }$
 
 The first part of the command `git commit` tells Git that all the files staged are ready to be committed so it takes a perminent snapshot of the files. 
 
 The second part `-m "first commit"` is the commit message.
 
-$${\color{green}git commit -a}$$
+## $\textcolor{Blue}{git\ commit\ -a}$
 
 This command commits any files you’ve added with the git add command and also commits any files you’ve changed since then.
 
@@ -85,7 +85,7 @@ This command commits any files you’ve added with the git add command and also 
 
 To check the working tree status, file details, use the command
 
-$${\color{green}git status }$$
+## $\textcolor{Blue}{git\ status }$
 
 This command lists all the files that have to be committed.
 
@@ -93,7 +93,7 @@ This command lists all the files that have to be committed.
 
 If you want to view the commit details then use the command
 
-$${\color{green}git log }$$
+## $\textcolor{Blue}{git\ log }$
 
 This command is used to list the version history for the current branch.
 
@@ -107,27 +107,27 @@ Branches allows you to work on different parts of a project without impacting th
 
 We can even switch between branches and work on different projects without them interferring with each other.
 
-$${\color{green}git branch}$$
+## $\textcolor{Blue}{git\ branch}$
 
 This command lists all the local branches in the current repository.
 
-$${\color{green}git branch [branch name] }$$
+## $\textcolor{Blue}{git\ branch\ [branch\ name] }$
 
 This command creates a new branch.
 
-$${\color{green}git checkout [branch name] }$$
+## $\textcolor{Blue}{git\ checkout\ [branch\ name] }$
 
 This command is used to switch from one branch to another.
 
-$${\color{green}git checkout -b [branch name]}$$
+## $\textcolor{Blue}{git\ checkout\ -b\ [branch\ name]}$
 
 This command creates a new branch and also switches to it.
 
-$${\color{green}git branch -d [branch name]}$$
+## $\textcolor{Blue}{git\ branch\ -d\ [branch\ name]}$
 
 Used to deletes an existing branch.
 
-$${\color{green} git merge [branch]}$$
+## $\textcolor{Blue}{git\ merge\ [branch]}$
 
 Us to merge a specified branch and combine it history with the main branch
 
@@ -140,49 +140,49 @@ Now it's time to create your remote repo where we you will be uploading your fil
 
 To save and backup your project remotely on your GitHub account, copy and paste the link of your repo in the command below
 
-$${\color{green}git remote add origin] [Remote Server Link] }$$
+## $\textcolor{Blue}{git\ remote\ add\ origin\] <Remote\ Server Link> }$
 
 Once the changes have been pushed, your remote repository will be updated
 
 If you are satisfied with the changes, you can push all the changes made using the following command
 
-$${\color{green}git push [variable name] master }$$
+## $\textcolor{Blue}{git\ push\ [variable\ name]\ master }$
 
 This command sends the committed changes of master branch to your remote repository.
 ## git diff
 
-$${\color{green}git diff}$$
+## $\textcolor{Blue}{git\ diff}$
 
 This command shows the file differences which are not yet staged.
 
-$${\color{green}git diff –staged}$$
+## $\textcolor{Blue}{git\ diff\ –staged}$
 
 This command shows the differences between the files in the staging area and the latest version present.
 
-$${\color{green}git diff [first branch] [second branch]}$$
+## $\textcolor{Blue}{git\ diff\ [first\ branch] [second\ branch]}$
 
 This command shows the differences between the two branches mentioned.
 
 ## git reset
 
-$${\color{green}git reset [file]}$$
+## $\textcolor{Blue}{git\ reset\ [file]}$
 
 This command unstages the file, but it preserves the file contents.
 
-$${\color{green}git reset [commit]}$$
+## $\textcolor{Blue}{git\ reset\ [commit]}$
 
 This command undoes all the commits after the specified commit and preserves the changes locally.
 
 The benefit of both of these commands is that you can use them to remove or edit changes you’ve made in the code in previous commits.
 ## git rm
 
-$${\color{green}git rm [file] }$$
+## $\textcolor{Blue}{git\ rm\ [file] }$
 
 This command deletes the file from your working directory and stages the deletion.
 
 ## git pull
 
-$${\color{green}git pull [Repository Link] }$$
+## $\textcolor{Blue}{git\ pull\ [Repository\ Link] }$
 
 This command fetches and merges changes on the remote server to your working directory.
 
