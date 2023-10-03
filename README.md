@@ -146,7 +146,7 @@ Once the changes have been pushed, your remote repository will be updated
 
 If you are satisfied with the changes, you can push all the changes made using the following command
 
-### $\textcolor{Blue}{git\ push\ [variable\ name]\ master }$
+### $\textcolor{Blue}{git\ push\origin\ branch name }$
 
 This command sends the committed changes of master branch to your remote repository.
 ## git diff
@@ -182,7 +182,7 @@ This command deletes the file from your working directory and stages the deletio
 
 ## git pull
 
-### $\textcolor{Blue}{git\ pull\ [Repository\ Link] }$
+### $textcolor{Blue}{git\ pull\ [Repository\ Link] }$
 
 This command fetches and merges changes on the remote server to your working directory.
 
